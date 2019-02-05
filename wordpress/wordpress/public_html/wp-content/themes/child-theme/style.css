@@ -1,0 +1,11 @@
+/*root {
+	 display: block;
+}*/
+
+/*
+Theme Name: GoVideo-Child
+Description: Дочерняя тема для темы Go-Video 
+Template: govideo
+*/
+
+@import url('../govideo/style.css');
