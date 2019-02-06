@@ -81,6 +81,7 @@
 				<?php get_sidebar();?>
 			</div>
              <?php do_action( 'hoo_after_page_header' );?>
+          
 		</div>
 	</div>
 

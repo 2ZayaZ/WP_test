@@ -2409,3 +2409,18 @@ li.tweets_govideor {
 .govideo_vote.voted i{
 	color: #FD0005;
 }
+
+.insert-posts{
+ border: 10px solid #ccc;
+ padding: 20px;
+ margin: 0 0 20px 0;
+ box-shadow: 0 0 10px #ccc;
+}
+.insert-posts img{
+ margin: 0 20px 20px 0;
+ border: 5px solid #ccc;
+ transition: border-radius .5s;
+}
+.insert-posts a:hover img{
+ border-radius: 50%;
+}
