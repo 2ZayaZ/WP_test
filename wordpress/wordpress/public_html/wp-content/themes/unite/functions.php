@@ -333,3 +333,4 @@ function wfm_add_category_posts($atts){
  
  return $content;
 }
+
