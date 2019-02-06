@@ -22,6 +22,7 @@
 		</div><!-- #main -->
         </div>
          <?php do_action( 'hoo_after_page_header' );?>
+          <?php do_action( 'hoo_after_post' );?>
 	</div><!-- #primary -->
    </div><!-- .wrap -->
 

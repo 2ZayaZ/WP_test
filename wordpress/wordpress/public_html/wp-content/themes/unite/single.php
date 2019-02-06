@@ -13,7 +13,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
-
+<?php do_action( 'hoo_after_post' );?>
 			<?php unite_post_nav(); ?>
 
 			<?php
@@ -22,7 +22,7 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
-	
+
 		<?php endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->
